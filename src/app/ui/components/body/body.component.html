@@ -1,0 +1,11 @@
+<main>
+  <h1>Lista de pockemons</h1>
+  <table>
+    @for (data of listPockemones; track data.results) {
+    <tr>
+      <td>{{ data.results.name || "1" }}</td>
+      <td>{{ data.results.url }}</td>
+    </tr>
+    }
+  </table>
+</main>

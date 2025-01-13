@@ -1,0 +1,11 @@
+section{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    & button{
+        flex:1
+        
+
+    }
+}
